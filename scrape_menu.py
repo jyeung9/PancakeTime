@@ -9,6 +9,10 @@
 	Can adjust the "Pancake" value below to any food to "search"
 	for the desired food item in a primitive way. 
 
+	Note: the "searching" is case sensitive; however, each word starts
+	with a capital letter, so that simplifies having to deal with
+	case sensitivity, so long as we implement a first letter
+	"auto caps" function that text-entry fields normally have. 
 """
 
 from bs4 import BeautifulSoup
